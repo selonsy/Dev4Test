@@ -20,7 +20,7 @@ namespace WebApplication.Controllers.Tests
             //创建一个账户devin，余额为100元
             BankAccount bank = new BankAccount("devin", 100);
             //取款10元
-            bank.Debit(10);
+            bank.Debit(20);
 
             double expected = 90;
             double actual = bank.Balance;

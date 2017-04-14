@@ -73,6 +73,14 @@ namespace WebApplication.Controllers
             return result;
         }
 
+        /// <summary>
+        /// Fiddler测试
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Fiddler()
+        {
+            return View();
+        }
         #region private
 
         /// <summary>
